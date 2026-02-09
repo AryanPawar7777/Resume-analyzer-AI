@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Analyzer AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 AI Resume Analyzer</h1>
+
+    <div class="card">
+        <h2>Basic Resume Analysis</h2>
+        <input type="file" id="resumeFile">
+        <button onclick="analyzeResume()">Analyze</button>
+        <pre id="analysisResult"></pre>
+    </div>
+
+    <div class="card">
+        <h2>ATS Check</h2>
+        <input type="file" id="atsFile">
+        <textarea id="jobDesc" placeholder="Paste Job Description here..."></textarea>
+        <button onclick="checkATS()">Check ATS Score</button>
+        <pre id="atsResult"></pre>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
